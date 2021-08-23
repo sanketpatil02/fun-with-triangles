@@ -96,3 +96,35 @@ body {
     margin: 0.5rem;
     font-size: 1.5rem;
 }
+
+footer {
+    margin-top: 5rem;
+    margin-bottom: 0; 
+    width: 100%;
+} 
+
+.heading-footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;    
+}
+
+ul li {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
