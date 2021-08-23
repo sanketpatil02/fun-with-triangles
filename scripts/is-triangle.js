@@ -13,12 +13,12 @@ function isTriangle() {
         const sum = calculateSumOfAngle(Number(angles[0].value), Number(angles[1].value), Number(angles[2].value) );
 
         if(sum === 180) {
-            outputMessage.innerText = "Oh oh! Angles form triangle!";
+            outputMessage.innerText = "Oh oh! Angles form triangle!🥳🥳";
         } else {
-            outputMessage.innerText = "Not triangle";
+            outputMessage.innerText = "Angles do not form triangle😕";
         }
     } else {
-        outputMessage.innerText = "Please enter all three values";
+        outputMessage.innerText = "Please enter all three values😢";
     }
 }
 
