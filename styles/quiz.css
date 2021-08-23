@@ -38,7 +38,7 @@ body {
 }
 
 .navbar h1{
-    color: #fff;
+    color: orange;
     font-size: 2.5rem;
     font-family: 'Amatic SC', cursive;
 }
@@ -53,6 +53,12 @@ body {
     padding: 1rem;
     width: 100%;
     margin: 2rem auto;
+}
+
+.quiz-main h1{
+    color: orange;
+    font-size: 2.5rem;
+    margin: 1rem 0;
 }
 
 .question {
