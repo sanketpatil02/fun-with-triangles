@@ -7,6 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <h1>Fun with Triangle</h1>
+        <div>
+            <a class="current" href="./isTriangle.html">Is triangle?</a>
+            <a href="./isTriangle.html">Quiz</a>
+            <a href="./pages/hypotenues.html">Hypotenues</a>
+            <a href="./isTriangle.html">Area of triangle</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Calculate Hypotenuse of triangle</h1>
+
+        <label for="label" class="label-input">Enter base value (a) =</label>
+        <input type="number" class="input-val">
+
+        <label for="label" class="label-input">Enter height value (b) =</label>
+        <input type="number" class="input-val">
+
+        <button id="calculate-hyp">Calculate Hypotenuse</button>
+        
+        <div class="formula-text"> Hypotenuse formula
+            <p class="formula">√(base² + height²)</p>
+        </div>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="/scripts/hypotenuse.js" type="text/javascript"></script>
 </body>
 </html>
